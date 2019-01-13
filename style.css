@@ -1,0 +1,268 @@
+@font-face {
+  font-family: "Ionicos";
+  src: url("fonts/ionicons.woff") format("woff");
+}
+
+body {
+  margin: 0;
+  color: #60606e;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+}
+
+i {
+  font-family: "Ionicos", sans-serif;
+  font-size: 30px;
+  color: white;
+  background-color: #7beec7;
+  font-style: normal;
+  padding: 5px 10px;
+}
+
+body * {
+  box-sizing: border-box;
+}
+
+a {
+  color: #60606e;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+p {
+  line-height: 30px;
+}
+
+h1, h2, h3 {
+  text-transform: uppercase;
+  font-family: "Montserrat", "Arial", sans-serif;
+  margin-top: 0;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 30px;
+  position: relative;
+  margin-bottom: 16px;
+}
+
+h2:before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 67px;
+  height: 21px;
+  background-color: #7beec7;
+  left: -4px;
+  bottom: 0;
+  z-index: -1;
+}
+
+div.cell.size-50 > h2 {
+  color: white;
+  font-size: 30px;
+  line-height: 48px;
+}
+
+h3 {
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+
+h4 {
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-top: 0;
+}
+
+.wrapper {
+  width: 1300px;
+  padding: 0 65px;
+  margin: 0 auto;
+  background: url("./images/background.jpg") no-repeat 0 0;
+}
+
+header a.logo {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+section {
+  padding-top: 140px;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.row {
+  overflow: hidden;
+}
+
+.cell {
+  float: left;
+  padding: 0 15px;
+}
+
+.cell.size-100 {
+  float: none;
+  display: block;
+}
+
+.cell.size-66 {
+  width: 66.6%;
+}
+
+.cell.size-50 {
+  width: 50%;
+}
+
+.cell.size-33 {
+  width: 33.3%;
+}
+
+.cell.size-25 {
+  width: 25%;
+}
+
+.cell.size-20 {
+  width: 20%;
+}
+
+.cell.size-16 {
+  width: 16.6%;
+}
+
+.cell.size-8 {
+  width: 8.3%;
+}
+
+footer .wrapper {
+  background: none;
+  padding: 0 75px;
+}
+
+header .cell {
+  line-height: 100px;
+}
+
+.subheader {
+  padding: 150px 0 166px 0;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.breadcrumbs * {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.no-float {
+  float: none;
+}
+
+.center-article {
+  margin: 0 auto;
+  padding-bottom: 90px;
+}
+
+.center-article h2 {
+  display: inline-block;
+}
+
+.center-article p {
+  line-height: 24px
+}
+
+.top-indent {
+  padding-top: 18px;
+}
+
+.bottom-indent {
+  padding-bottom: 18px;
+}
+
+img {
+  width: auto;
+  max-width: 100%;
+}
+
+.cell img {
+  height: 336px;
+}
+
+footer {
+  background-color: #7beec7;
+  padding: 50px 0;
+  min-width: 1300px;
+}
+
+.cell.size-50 button:first-of-type {
+  font-family: Montserrat, sans-serif;
+  background-color: white;
+  color: #7beec7;
+  font-size: 14px;
+  font-weight: 800;
+  border: none;
+  padding: 20px 30px;
+  text-transform: uppercase;
+  margin-bottom: 78px;
+}
+
+.cell.size-50 button:hover {
+  cursor: pointer;
+}
+
+label#send button {
+  padding: 0 50px;
+  height: 52px;
+  background-color: #7beec7;
+  color: #ffffff;
+  outline: none;
+  opacity: 1;
+  margin-left: -5px;
+  margin-bottom: 0;
+}
+
+.newsletter-box {
+  background-color: white;
+  padding: 20px 0 20px 25px;
+}
+
+.newsletter-box h3 {
+  color: #60606e;
+  font-size: 24px;
+}
+
+.newsletter-box p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #999999;
+  margin-bottom: 35px;
+}
+
+label#send input[type="text"] {
+  text-transform: uppercase;
+  font-family: Montserrat, sans-serif;
+  box-shadow: none;
+  border: none;
+  outline: 1px solid #cdcdcd;
+  font-size: 12px;
+  padding: 0 25px;
+  height: 50px;
+  width: 70%;
+}
